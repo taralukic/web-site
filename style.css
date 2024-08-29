@@ -1,0 +1,137 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(images/Download\ hand\ painted\ watercolour\ abstract\ background\ with\ gold\ glitter\ for\ free.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dark-mode {
+    background-image: url(images/dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    background-color: rgba(255, 192, 203, 0.6);
+    height: 187px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.30);
+    height: 54px;
+    text-align: center;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 595px;
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.mapa {
+    margin-top: 40px;
+}
+
+footer {
+    height: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+footer p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(65, 35, 71);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+}
+
+.dropdown li {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.30)
+}
+
+.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    padding: 20px 25px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
